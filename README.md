@@ -35,36 +35,16 @@ Tasks
 
 **Mandatory tasks:**
 1. Make the App runnable, List screen and detail screen should work.
-2. Refactor the data handling with a pattern of your choice and write unit test(s) for it.
-3. Enhance the Movie List by adding images to the list items
-4. Enhance the Detail Screen by adding an image
-    
-**Optional tasks:** 
+2. Setup Dependency Injection
+3. Migrate the network call from RxJava to Kotlin Coroutines
+4. Enhance the Movie List and detail screen by adding images
+5. Add Unit & UI Tests
+6. Fix code smells/bad usages that you see
 
-*Architecture*
-- Setup Dependency Injection
-- Migrate the network call from RxJava to Kotlin Coroutines
-
-*Features:*
-- Add offline support for the list and detail screen
-- Implement pagination for the list
-- Add deeplink for the detail screen
-- Add a share button to the detail screen and implement a basic sharing mechanism
-- Improve resiliency of the App by adding error handling
-
-*Tests*
-- Add sample UI Tests
-
-*Build System:*
-- Improve dependency handling of gradle files
-- Migrate to gradle kotlin dsl
-- Build project on CI/CD tool of your choice
-
-
-*Please pick some tasks from the optional task list to your liking or improve the App in any other way and write a few words about what you did.*
+*Please add a readme file by writing a few words about what you did in terms of architecture of the app, used frameworks.*
 
 **Notes**
-- The challenge is time-boxed to a maximum of 4 hours, please be fair to others and your own schedule and try adhere to it
+- The challenge is time-boxed to a maximum of 3 hours, please be fair to others and your own schedule and try adhere to it
 - Focus on what you're good at or what you want to learn anyway, don't get hung up on a task for too long
 - Showoff where you can and want :D 
 
