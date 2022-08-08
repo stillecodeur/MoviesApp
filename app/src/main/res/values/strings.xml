@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Browsr</string>
+    <string name="movie_list_title">Popular Movies</string>
+    <string name="genre">Genre</string>
+    <string name="error_something_went_wrong">Something went wrong</string>
+    <string name="error_no_data">Sorry, no movies found. Please try again</string>
+</resources>

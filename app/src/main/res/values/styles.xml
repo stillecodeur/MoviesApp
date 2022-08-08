@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="AppTheme.PrimaryText" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/movie_text_primary</item>
+        <item name="android:textSize">@dimen/primary_text</item>
+    </style>
+
+    <style name="AppTheme.SecondaryText" parent="AppTheme">
+        <item name="android:textColor">@color/movie_text_secondary</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.DescriptionText" parent="AppTheme">
+        <item name="android:textColor">@color/movie_text_description</item>
+        <item name="android:textSize">@dimen/description_text</item>
+    </style>
+
+    <style name="AppTheme.ErrorText" parent="AppTheme">
+        <item name="android:textColor">@color/error_text</item>
+        <item name="android:textSize">@dimen/secondary_text</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#9e9e9e</item>
+        <item name="colorControlActivated">#ffd600</item>
+    </style>
+
+    <style name="ChipTextAppearance" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textColor">@color/chipText</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

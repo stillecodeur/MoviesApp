@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="chipBackground">#e0e0e0</color>
+    <color name="chipText">#616161</color>
+    <color name="error_text">#757575</color>
+    <color name="movie_text_primary">@android:color/black</color>
+    <color name="movie_text_secondary">#616161</color>
+    <color name="movie_text_description">#616161</color>
+</resources>
